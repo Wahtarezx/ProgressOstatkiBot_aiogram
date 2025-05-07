@@ -67,6 +67,8 @@ from core.utils.states import *
 
 from core.cron.barcodes import update_dcode_in_tmc
 
+from config import ip
+
 
 @logger.catch()
 async def start():
@@ -86,11 +88,10 @@ async def start():
         # scheduler.add_job(main_logs, trigger='cron', hour="*/5", minute="15")
         scheduler.add_job(send_notifications, trigger="cron", hour="15", minute="0")
         scheduler.add_job(create_notifications, trigger="cron", hour="13", minute="0")
-        scheduler.add_job(update_dcode_in_tmc, trigger="cron", hour="11", minute="5", kwargs={"ip": "10.8.20.42"})
+        scheduler.add_job(update_dcode_in_tmc, trigger="cron", hour="5", minute="0", kwargs={"ip": ip})
         # scheduler.add_job(send_notification, trigger='cron', hour='*', minute='36')
         scheduler.start()
 
-    await update_dcode_in_tmc("10.8.20.42")
 
     # Errors handlers
     dp.errors.register(

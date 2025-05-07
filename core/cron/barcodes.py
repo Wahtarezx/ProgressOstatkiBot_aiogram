@@ -234,7 +234,6 @@ async def process_batch(batch, loop, pool, Session):
                 .where(TMC.bcode == bcode)
                 .values(dcode=dcode)
             )
-            print(f'{item.name} -> {dcode}')
             if item.minprice < 35 and dcode == 1:
                 await db.execute(
                     update(TMC)
@@ -246,6 +245,7 @@ async def process_batch(batch, loop, pool, Session):
         return results
 
 async def update_dcode_in_tmc(ip: str):
+    logger.info("Началась сортировка товаров по категориям")
     engine = create_async_engine(
         f"mysql+aiomysql://{config.cash_user}:{config.cash_password}@{ip}:{config.port}/{config.cash_database}?charset=utf8mb4",
         pool_recycle=3600,
@@ -280,6 +280,8 @@ async def update_dcode_in_tmc(ip: str):
 
         if batch_tasks:
             await asyncio.gather(*batch_tasks)
+
+    logger.info("Сортировка товаров по категориям закончена")
 
 
 if __name__ == "__main__":
