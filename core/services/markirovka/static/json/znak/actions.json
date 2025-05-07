@@ -1,0 +1,72 @@
+{
+    "volume": {
+        "type": "LK_GTIN_RECEIPT",
+        "docs": [
+            {
+                "action": "OWN_USE",
+                "name": "Использование для собственных нужд",
+                "document_type": "OTHER",
+                "buyer_inn": false,
+                "all": true
+            },
+            {
+                "action": "EXPIRATION",
+                "name": "Истечение срока годности",
+                "document_type": "OTHER",
+                "buyer_inn": false,
+                "all": true
+            },
+            {
+                "action": "BALANCE_CORRECTION",
+                "name": "Корректировка остатков (ОСУ)",
+                "document_type": "OTHER",
+                "buyer_inn": false,
+                "all": true
+            },
+            {
+                "action": "LOSS",
+                "name": "Утрата",
+                "document_type": "OTHER",
+                "buyer_inn": false,
+                "all": true
+            }
+        ]
+    },
+    "mark": {
+        "except_pg": [
+            "31"
+        ],
+        "type": "LK_RECEIPT",
+        "docs": [
+            {
+                "action": "OWN_USE",
+                "name": "Использование для собственных нужд",
+                "document_type": "OTHER",
+                "buyer_inn": false,
+                "all": true
+            },
+            {
+                "action": "EXPIRATION",
+                "name": "Истечение срока годности",
+                "document_type": "OTHER",
+                "buyer_inn": false,
+                "all": false,
+                "access_pg": [
+                    "21",
+                    "15"
+                ]
+            },
+            {
+                "action": "LOSS",
+                "name": "Утрата",
+                "document_type": "OTHER",
+                "buyer_inn": false,
+                "all": false,
+                "except_pg": [
+                    "22",
+                    "23"
+                ]
+            }
+        ]
+    }
+}

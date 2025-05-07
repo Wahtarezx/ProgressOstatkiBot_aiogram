@@ -1,0 +1,162 @@
+{
+    "lp": {
+        "dcode": "4",
+        "op_mode": "0",
+        "tmctype": "0",
+        "group_id": "1",
+        "is_volume_balance": false,
+        "name": "Предметы одежды, бельё постельное, столовое, туалетное и кухонное"
+    },
+    "shoes": {
+        "dcode": "4",
+        "op_mode": "0",
+        "tmctype": "0",
+        "group_id": "2",
+        "is_volume_balance": false,
+        "name": "Обувные товары"
+    },
+    "tobacco": {
+        "dcode": "3",
+        "op_mode": "32768",
+        "tmctype": "3",
+        "group_id": "3",
+        "is_volume_balance": false,
+        "name": "Табачная продукция"
+    },
+    "perfumery": {
+        "dcode": "4",
+        "op_mode": "0",
+        "tmctype": "0",
+        "group_id": "4",
+        "is_volume_balance": false,
+        "name": "Духи и туалетная вода"
+    },
+    "tires": {
+        "dcode": "4",
+        "op_mode": "0",
+        "tmctype": "0",
+        "group_id": "5",
+        "is_volume_balance": false,
+        "name": "Шины и покрышки пневматические резиновые новые"
+    },
+    "electronics": {
+        "dcode": "4",
+        "op_mode": "0",
+        "tmctype": "0",
+        "group_id": "6",
+        "is_volume_balance": false,
+        "name": "Фотокамеры (кроме кинокамер), фотовспышки и лампывспышки"
+    },
+    "milk": {
+        "dcode": "5",
+        "op_mode": "0",
+        "tmctype": "7",
+        "group_id": "8",
+        "is_volume_balance": true,
+        "name": "Молочная продукция"
+    },
+    "bicycle": {
+        "dcode": "4",
+        "op_mode": "0",
+        "tmctype": "0",
+        "group_id": "9",
+        "is_volume_balance": false,
+        "name": "Велосипеды и велосипедные рамы"
+    },
+    "wheelchairs": {
+        "dcode": "4",
+        "op_mode": "0",
+        "tmctype": "0",
+        "group_id": "10",
+        "is_volume_balance": false,
+        "name": "Медицинские изделия"
+    },
+    "otp": {
+        "dcode": "3",
+        "op_mode": "32768",
+        "tmctype": "3",
+        "group_id": "12",
+        "is_volume_balance": false,
+        "name": "Альтернативная табачная продукция"
+    },
+    "water": {
+        "dcode": "5",
+        "op_mode": "0",
+        "tmctype": "7",
+        "group_id": "13",
+        "is_volume_balance": true,
+        "name": "Упакованная вода"
+    },
+    "furs": {
+        "dcode": "4",
+        "op_mode": "0",
+        "tmctype": "0",
+        "group_id": "14",
+        "is_volume_balance": false,
+        "name": "Товары из натурального меха"
+    },
+    "beer": {
+        "dcode": "2",
+        "op_mode": "64",
+        "tmctype": "0",
+        "group_id": "15",
+        "is_volume_balance": false,
+        "name": "Пиво, напитки, изготавливаемые на основе пива,слабоалкогольные напитки"
+    },
+    "ncp": {
+        "dcode": "3",
+        "op_mode": "32768",
+        "tmctype": "3",
+        "group_id": "16",
+        "is_volume_balance": false,
+        "name": "Никотиносодержащая продукция"
+    },
+    "bio": {
+        "dcode": "4",
+        "op_mode": "0",
+        "tmctype": "0",
+        "group_id": "17",
+        "is_volume_balance": false,
+        "name": "Биологически активные добавки к пище"
+    },
+    "antiseptic": {
+        "dcode": "4",
+        "op_mode": "0",
+        "tmctype": "0",
+        "group_id": "19",
+        "is_volume_balance": false,
+        "name": "Антисептики и дезинфицирующие средства"
+    },
+    "seafood": {
+        "dcode": "4",
+        "op_mode": "0",
+        "tmctype": "0",
+        "group_id": "21",
+        "is_volume_balance": false,
+        "name": "Морепродукты"
+    },
+    "nabeer": {
+        "dcode": "4",
+        "op_mode": "0",
+        "tmctype": "7",
+        "group_id": "22",
+        "is_volume_balance": false,
+        "name": "Безалкогольное пиво"
+    },
+    "softdrinks": {
+        "dcode": "4",
+        "op_mode": "0",
+        "tmctype": "0",
+        "group_id": "23",
+        "is_volume_balance": false,
+        "name": "Соковая продукция и безалкогольные напитки"
+    },
+    "titan": {
+        "dcode": "4",
+        "op_mode": "0",
+        "tmctype": "0",
+        "group_id": "31",
+        "is_volume_balance": false,
+        "name": "Титановая металлопродукция"
+    }
+}
